@@ -137,6 +137,16 @@ body{
     padding-top: 30rem;
     padding-bottom: 10rem;
 }
+.home2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:url(https://media.istockphoto.com/photos/generic-red-suv-on-a-white-background-side-view-picture-id1157655660?k=20&m=1157655660&s=612x612&w=0&h=WOtAthbmJ9iG1zbKo4kNUsAGMe6-xM-E7a8TMxb5xmk=);
+    background-position: center;
+    background-size: cover;
+    padding-top: 45rem;
+    padding-bottom: -2rem;
+}
 .home1 .content{
     text-align: center;
 }
@@ -155,6 +165,13 @@ body{
     padding: 1rem 0;
     line-height: 1.8;
    
+}
+.home1 .content p span{
+    color: var(--orange);
+}
+.home1 .content .img{
+    margin:1rem 0;
+    height:20rem;
 }
 
 .features{
@@ -250,8 +267,8 @@ body{
 
 .footer .box-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    gap:1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap:3rem;
 }
 
 .footer .box-container .box h3{
@@ -417,4 +434,7 @@ body{
     .footer .box-container .box .payment-img{
         margin: 2rem auto;
     }
+
+    
+
 }
