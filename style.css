@@ -184,8 +184,7 @@ body{
 
 }
 .features .box-container .box:hover{
-    outline: var(--outline-hover1);
-    outline-offset: 0rem;
+   box-shadow:0 0 20px 0 #ff7800;
 }
 
 .features .box-container{
@@ -232,20 +231,21 @@ body{
     padding:3rem 2rem;
     border-radius: .5rem;
     background:#fff;
-    box-shadow: var(--box-shadow);
-    outline:var(--outline);
+   
     outline-offset: -1rem;
     text-align: center;
 }
 
 .categories .box-container .box:hover{
-    outline:var(--outline-hover);
-    outline-offset: 0rem;
+    box-shadow: 0 0 30px 0 var(--black);
 }
 
 .categories .box-container .box img{
     margin:1rem 0;
     height:15rem;
+}
+.categories .box-container .box img:hover{
+    box-shadow: 0 0 10px 0 var(--orange);
 }
 
 .categories .box-container .box h3{
